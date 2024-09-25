@@ -3,7 +3,7 @@ import '/src/index.css';
 
 const ArtistDetails = ({ artist }) => {
     return (
-      <div className="artist-details">
+      <div className="artist-details-container">
         <div className="img-container">
             <img src={artist.photo_url} alt={`${artist.name} photo`} />
         </div>
